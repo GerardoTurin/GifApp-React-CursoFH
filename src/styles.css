@@ -1,0 +1,152 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(234, 234, 234);
+}
+
+body {
+    padding: 60px;
+}
+
+
+
+input {
+    background-color: white;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: 0%;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card p {
+    background-color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.modal img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-radius: 5px;
+    background: whitesmoke;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(24, 23, 23);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+.sugestiones {
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(112, 110, 110);
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 0;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.sugestiones li {
+    background-color: white;
+    padding: 10px 0;
+    text-align: start;
+}
+
+.sugestiones a {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    padding: 0;
+    width: 100%;
+    
+}
+
+
+
+.hide-border {
+    border: none;
+}
